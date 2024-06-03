@@ -29,6 +29,7 @@ class Solution:
             new_node.next = head
             head = new_node
             # head = new_node
+
         return head
 
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
