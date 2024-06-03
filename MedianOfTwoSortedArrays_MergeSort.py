@@ -2,7 +2,6 @@ from typing import List
 
 
 class Solution:
-
     def merge_sort(self, x: List[int], m, y: List[int], n) -> List[int]:
         if m == 0: return y
         if n == 0: return x
